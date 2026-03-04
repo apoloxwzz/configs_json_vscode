@@ -1,7 +1,5 @@
 {
-    "windows.zoomLevel": 1,
-    "workbench.colorTheme": "Min Dark",
-    "symbols.hidesExplorerArrows": false,
+    "workbench.colorTheme": "Tokyo Night",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 16,
     "editor.lineHeight": 1.8,
@@ -30,27 +28,8 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.fileNesting.patterns": {
-        "*.ts": "${capture}.js",
-        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-        "*.jsx": "${capture}.js",
-        "*.tsx": "${capture}.ts",
-        "tsconfig.json": "tsconfig.*.json",
-        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
-        "*.sqlite": "${capture}.${extname}-*",
-        "*.db": "${capture}.${extname}-*",
-        "*.sqlite3": "${capture}.${extname}-*",
-        "*.db3": "${capture}.${extname}-*",
-        "*.sdb": "${capture}.${extname}-*",
-        "*.s3db": "${capture}.${extname}-*"
-    },
     "python.createEnvironment.trigger": "off",
     "workbench.editor.empty.hint": "hidden",
-    "redhat.telemetry.enabled": true,
-
-
-
-
+    "workbench.activityBar.location": "default",
+    "explorer.confirmDelete": false,
 }
